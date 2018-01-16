@@ -6,4 +6,4 @@ Now you know how to build this quiz, what else can you do with this code? On thi
 
 + You can build an app that gives information on different screens, connected with buttons, about anything you're interested in! You can try adding an **Image** component to the screen and uploading pictures too. I could build another dog-themed app, with pictures and information about different breeds!
 
-![](/images/AI Badge.png)
+![](images/AI Badge.png)

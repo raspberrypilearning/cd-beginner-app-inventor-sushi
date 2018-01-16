@@ -4,7 +4,7 @@ Before you can do anything, you're going to need an account on the App Inventor 
 
 + Go to [dojo.soy/appinv-start ](http://dojo.soy/appinv-start)and then click on the **Create apps!** button at the top-right of the screen.
 
-![](/images/Create apps button.png)
+![](images/Create apps button.png)
 
 The website will ask you to sign in with a Google account. If you don't have one, you'll need to create one or use your parent/guardian's account.
 
@@ -16,15 +16,15 @@ Right! Now you're all set to go! Time to create your first Android app!
 
 + Go back to App Inventor in your browser and click on the "Start new project" button, at the top left of the screen.
 
-![](/images/Start new project.png)
+![](images/Start new project.png)
 
 + Call your project "MyQuizApp" and click "OK"
 
-![](/images/Project name.png)
+![](images/Project name.png)
 
 You'll see a screen like this one, and you're ready to get coding!
 
-![](/images/Start screen.png)
+![](images/Start screen.png)
 
 You can see that the App Inventor **Designer** view is broken into four key sections:
   **Palette**—from which you pick the components you will use to build your app

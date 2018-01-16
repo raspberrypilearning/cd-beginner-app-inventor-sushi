@@ -11,7 +11,7 @@ If you want to follow along with me, you're welcome to, if not then wherever I h
 ### What you will make
 
  * You'll end up with something that looks like this (though you can play around with colours and adding images to brighten it up if you like!).
-![](/images/all app.png)
+![](images/all app.png)
 
 ### What you will learn
 
