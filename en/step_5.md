@@ -4,7 +4,7 @@ Now you've got your first question and you're giving the player a point for a ri
 
 + To add another question, you'll need to switch back to **Designer** view and click on the **Add Screen...** button in the top menu bar.
 
-![](/assets/add screen.png)
+![](/images/add screen.png)
 
 + Name your new screen whatever you like. I decided to be unimaginative and leave it as `Screen2` for now!
 
@@ -14,7 +14,7 @@ Now you've got your first question and you're giving the player a point for a ri
 
 + So add some code in the **Blocks** view that looks like this (remember to use the right **Button** for your right answer!):
 
-![](/assets/subsequent store score.png)
+![](/images/subsequent store score.png)
 
 Great! But how do players get from `Screen1` to `Screen2`? You need to go back to `Screen1` and give them a way! 
 
@@ -22,13 +22,13 @@ Great! But how do players get from `Screen1` to `Screen2`? You need to go back t
 
 + Now, from the **Built-in** blocks, take the `open another screen screenName` **Control** block and a **Text** block and add them below the score code, like this (if you've changed your screen name, you'll need to use that where I've used `Screen2`):
 
-![](/assets/next screen right.png)
+![](/images/next screen right.png)
 
 Of course, that only works if `Button1` is clicked. 
 
 + You need to add a simpler block for all the other buttons (the wrong answers) like this:
 
-![](/assets/next screen wrong.png)
+![](/images/next screen wrong.png)
 
 By creating more screens, and adding these same kinds of blocks that point to the next screen each time, you can create an endless number of questions, and keep score throughout! 
 
