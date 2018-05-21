@@ -1,15 +1,44 @@
-## Wrapping up
+## Multiple questions
 
-Now that you're finished adding questions and connecting screens, you need a way to tell the player how they did!
+Now you've got your first question and you're giving the player a point for the right answer. 
 
-+ Create one more screen called `ScoreScreen` with nothing but a **Label** on it. You also need to drag the **TinyDB** on so you can access the score.
++ To add another question, you'll need to switch back to Designer view and click on the **Add Screen...** button in the top menu bar.
 
-+ Now switch to the **Blocks** view and, using blocks from the **ScoreScreen**, **Label1**, **Text**, **TinyDB1** and **Math** sections, put this together:
+![](images/add screen.png)
 
-![](images/show score.png)
++ Name your new screen whatever you like. I decided to be boring and leave it as **Screen2** for now!
 
-+ You should now be able to go to the **Connect** menu and choose the emulator or other connection device you set up for testing your apps (you might need a mentor's help here!) and see how your code works right now!
++ Your new screen will be blank. Add a Label with your next question and four Buttons with answers, just like on the last screen. Drag a TinyDB on too, so you can get that score value you stored! I've asked what country produces the most rice (it's India!), but you pick whatever works for the quiz you're writing.
 
-![](images/connect.png)   
++ Add some code in the Blocks view that looks like the following. Remember to use the right Button for your right answer (my one was on Button3)!:
 
-That's it! You've got a quiz that will keep score across all its pages, no matter how many you add, and will tell the player how they did at the end. Nice work! Check out the next card for a few ideas on what else you can do with what you know now!
+![](images/subsequent store score.png)
+
+--- collapse ---
+---
+title: Why is the code different this time?
+---
+
+The code to change the score has to be a little cleverer here, since you've first got to **get** the value of `score` before you can add `1` to it and **store** it. 
+
+And since there will only be a value there if the player got the right answer on the last screen, you need to set a default value if there's nothing there. 
+
+--- /collapse ---
+
+Great! But how do players get from Screen1 to Screen2? You need to go back to Screen1 and give them a way! 
+
++ To switch screens, click on the Screen2 button and pick Screen1 from the drop-down menu.
+
++ Now, from the Built-in blocks, take the `open another screen screenName` **Control** block and a Text block, and add them below the score code, like this (if you've changed your screen name, you'll need to use that where I've used Screen2):
+
+![](images/next screen right.png)
+
+Of course, that only works if Button1 is clicked. 
+
++ You need to add a simpler block for all the other buttons (the wrong answers), like this:
+
+![](images/next screen wrong.png)
+
+By creating more screens, and adding these same kinds of blocks that point to the next screen each time, you can create an endless number of questions, and keep score throughout! 
+
++ Go make one or two more question screens following the steps on this card.
