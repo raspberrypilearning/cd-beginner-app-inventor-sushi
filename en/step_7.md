@@ -6,11 +6,11 @@ Now that you're finished adding questions and connecting screens, you need a way
 
 + Now switch to the Blocks view and use blocks from the **ScoreScreen**, **Label1**, **Text**, **TinyDB1**, and **Math** sections to put this together:
 
-![](images/show score.png)
+![Code to show the final score](images/show score.png)
 
 + You should now be able to go to the **Connect** menu and choose the emulator or other connection device you set up for testing your apps (you might need a mentor's help here!) and see how your code works right now!
 
-![](images/connect.png)   
+![The Connect menu](images/connect.png)   
 
 --- collapse ---
 ---
@@ -19,7 +19,7 @@ title: How can I install my app on a phone or tablet?
 
 + You can build a real app that can be installed on your Android device using one of the options from the **Build** menu. You can either download the app installer directly, or get a QR code that you can scan to download the app onto your device.
 
-![](images/build.png)  
+![The Build menu](images/build.png)  
 
 --- /collapse ---
 

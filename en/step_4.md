@@ -2,16 +2,15 @@
 
 + First, drag a **Label** component into the viewer to use for your question. 
 
-![](images/Label.png)
-
+![The label component in the Palette](images/Label.png)
 
 + To make this Label have the question you want to ask in it, first select it by clicking on it either in the Viewer or the Components section. 
 
 + Now, in the Properties section, look for **Text** (you may have to scroll down). 
 
-![](images/Properties-text.png)  
+![The Text property](images/Properties-text.png)  
   
-+ Change the text in the Text box to your question. I'm going to go with "What country produces the most sugar cane?", but you can pick any question you like.
++ Change the text in the Text box to your question. I'm going to go with "What breed is the world's largest dog?", but you can pick any question you like. Maybe ask what the first song a band released was, or the score in the last World Cup final!
 
 Of course, what good is a question if the player doesn't have a chance to answer? Now it's time for you to add a few! 
 
@@ -19,6 +18,6 @@ Of course, what good is a question if the player doesn't have a chance to answer
 
 What you end up with should look a little like this: 
 
-![](images/qn1.png)
+![The app screen with a question and four buttons for answers](images/qn1.png)
 
-The answer to my question is Brazil, by the way! You can read more here: [dojo.soy/world-sugar](http://dojo.soy/world-sugar){:target="_blank"}
+It's a Great Dane, by the way! Check him out: [dojo.soy/big-dog](http://dojo.soy/big-dog){:target="_blank"}
