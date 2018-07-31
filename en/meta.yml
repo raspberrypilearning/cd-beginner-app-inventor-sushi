@@ -14,9 +14,9 @@ last_tested: 2017-01-01
 steps: 
   - title: Introduction
   - title: What you will need
-  - title: Getting set up
-  - title: Creating a question
-  - title: Checking answers
+  - title: Get set up
+  - title: Create a question
+  - title: Check answers
   - title: Multiple questions
-  - title: Wrapping up
+  - title: Finish your app
   - title: What next?
