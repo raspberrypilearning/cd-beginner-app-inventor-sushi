@@ -8,7 +8,7 @@ Now that you're finished adding questions and connecting screens, you need a way
 
 ![Code to show the final score](images/show score.png)
 
-+ You should now be able to go to the **Connect** menu and choose the emulator or other connection device you set up for testing your apps (you might need a mentor's help here!) and see how your code works right now!
++ You should now be able to go to the **Connect** menu and choose the emulator or other connected device that you set up for testing your apps (you might need a mentor's help here!) and see how your code works right now.
 
 ![The Connect menu](images/connect.png)   
 
@@ -17,7 +17,7 @@ Now that you're finished adding questions and connecting screens, you need a way
 title: How can I install my app on a phone or tablet?
 ---
 
-+ You can build a real app that can be installed on your Android device using one of the options from the **Build** menu. You can either download the app installer directly, or get a QR code that you can scan to download the app onto your device.
++ To build a working app that you can install on your Android device, use one of the options from the **Build** menu: you can either download the app installer directly, or get a QR code that you can scan to download the app to your device.
 
 ![The Build menu](images/build.png)  
 
