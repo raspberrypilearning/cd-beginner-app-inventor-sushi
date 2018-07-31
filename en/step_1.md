@@ -1,6 +1,8 @@
 ## Introduction
 
-These cards are going to help you learn to build apps for Android phones and tablets by introducing you to App Inventor.You're going to get the chance to:
+These cards are going to help you learn to build apps for Android phones and tablets by introducing you to App Inventor.
+
+You're going to get the chance to:
 
  * Build a quiz that keeps score as the player goes through it
  * Use any questions and answers you like, maybe about your favourite band or sport, or a book, movie, or TV show you love.
