@@ -20,4 +20,4 @@ What you end up with should look a little like this:
 
 ![The app screen with a question and four buttons for answers](images/qn1.png)
 
-The largest breed of dog is the Great Dane, by the way! Check them out: [dojo.soy/big-dog](http://dojo.soy/big-dog){:target="_blank"}
+The largest dog in the world is a Great Dane, by the way! Check him out: [dojo.soy/big-dog](http://dojo.soy/big-dog){:target="_blank"}
