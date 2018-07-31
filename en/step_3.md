@@ -1,4 +1,4 @@
-## Getting set up
+## Get set up
 
 Before you can start coding your quiz app, you're going to need an account on the App Inventor website. 
 
