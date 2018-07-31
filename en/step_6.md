@@ -1,4 +1,4 @@
-## Multiple questions
+## More questions
 
 Now you've got your first question, and you're giving the player a point for the right answer. 
 
