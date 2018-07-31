@@ -10,7 +10,7 @@
 
 ![The Text property](images/Properties-text.png)  
   
-+ Change the text in the Text box to your question. I'm going to go with "What breed is the world's largest dog?", but you can pick any question you like. Maybe ask what the first song a band released was, or the score in the last World Cup final!
++ Change the text in the Text box to your question. I'm going to go with "What breed is the world's largest dog?", but you can pick any question you like. Maybe ask what your favourite band's first song was, or for the score in the last World Cup final!
 
 Of course, what good is a question if the player doesn't have a chance to answer? Now it's time for you to add a few! 
 
@@ -20,4 +20,4 @@ What you end up with should look a little like this:
 
 ![The app screen with a question and four buttons for answers](images/qn1.png)
 
-It's a Great Dane, by the way! Check him out: [dojo.soy/big-dog](http://dojo.soy/big-dog){:target="_blank"}
+The largest breed of dog is the Great Dane, by the way! Check them out: [dojo.soy/big-dog](http://dojo.soy/big-dog){:target="_blank"}
