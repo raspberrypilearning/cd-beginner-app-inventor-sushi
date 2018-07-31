@@ -1,4 +1,4 @@
-## Wrapping up
+## Finish your app
 
 Now that you're finished adding questions and connecting screens, you need a way to tell the player how they did!
 
