@@ -1,33 +1,44 @@
-## Keep score
+## More questions
 
-Android apps are made of **Screens**. You've created your first question on one Screen, and you're going to want to add more. You'll put the questions on new screens, but you need a way of keeping score between those screens. On this card, you'll be adding a **TinyDB** database to keep the score in, and some code to mark the right answer!
+Now you've got your first question, and you're giving the player a point for the right answer. 
 
-+ First, in the Palette section in **Storage**, find the TinyDB component and drag it on to the Viewer. You won't see anything new there, but **TinyDB1** should appear in the Components section. 
++ To add another question, you'll need to switch back to Designer view and click on the **Add Screen...** button in the top menu bar.
 
-![The TinyDB component in the Palette](images/tinydb.png)
+![Add a screen](images/add screen.png)
 
-Now it's time to start putting together the code that will power your quiz! 
++ Name your new Screen whatever you like. I decided to be boring and leave it as **Screen2** for now!
 
-+ In the top right-hand corner of the screen, click on the **Blocks** button to access the Blocks view.
++ Your new Screen will be blank. Add a Label with your next question and four Buttons with answers, just like on the last Screen. Drag a TinyDB on too, so you can get that score value you stored! I’ve asked what animals dogs are most closely related to (it’s wolves!), but you pick whatever works for the quiz you're writing.
 
-![Blocks button](images/blocks button.png)
++ Add some code in the Blocks view that looks like the following. Remember to use the right Button for your correct answer (mine was on **Button3**):
 
-Just like the previous Designer screen, this Blocks screen has sections:  
-  **Blocks**, where you pick code blocks
-  **Viewer**, where you drag your code blocks to assemble them
+![Code to store the score](images/subsequent store score.png)
 
-There are lots of kinds of code blocks — you're just going to need a few of them for now. 
+--- collapse ---
+---
+title: Why is the code different this time?
+---
 
-+ In the Blocks section, click on whichever button matches the right answer to your question. For me, it was **Button1**. Grab the `When Button1.Click do` block and drag it onto the viewer.
+The code to change the score has to be a little cleverer here, since you've first got to **get** the value of `score` before you can add `1` to it and **store** it. 
 
-![Code block for clicking Button1](images/when click.png)
+And since there would only be a value there if the player got the right answer on the last Screen, you need to set a default value that can be used if the player got the answer wrong. 
 
-+ Now click on TinyDB1 and choose the `call TinyDB1.StoreValue` block. Drag it so it's inside the previous block, and then go to the **Built-in** blocks and attach the pieces from **Math** and **Text** to make it look like this:
-  
-![Code to storing something in TinyDB1 when the button is clicked](images/store score.png)
+--- /collapse ---
 
-+ Finally, update the Text value to `score` and the number to `1`, like this:
-  
-![Code blocks with the values to store](images/score vals.png)
+Great! But how do players get from Screen1 to Screen2? You need to go back to Screen1 and give them a way! 
 
-What you've done is to store the value `1` (as in one point for a right answer) under the label `score` in the TinyDB database. You can pull it back out and change it on later screens. This way, you can keep score throughout the app, no matter how many questions you add!
++ To switch screens, click on the Screen2 button and pick Screen1 from the drop-down menu.
+
++ Now, from the Built-in blocks, take the `open another screen screenName` **Control** block and a Text block, and add them below the score code, like this (if you've changed your screen name, you'll need to use that where I've used 'Screen2'):
+
+![Code for clicking the right answer](images/next screen right.png)
+
+Of course, this code only works if **Button1** is clicked. 
+
++ You need to add a simpler block for all the other buttons (the wrong answers), like this:
+
+![Code for clicking the wrong answer](images/next screen wrong.png)
+
+By creating more screens, and adding these same kinds of blocks that point to the next screen each time, you can create an endless number of questions, and keep score throughout! 
+
++ Go make one or two more question screens following the steps on this card.
