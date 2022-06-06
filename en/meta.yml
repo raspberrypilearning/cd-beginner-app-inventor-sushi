@@ -11,17 +11,19 @@ curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
 interests: animals
 technologies: app-inventor
 site_areas: coderdojo
-hardware:
+hardware: 
 software: app-inventor
 version: 4.0.0
 last_tested: 2017-01-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: Get set up
 - title: Create a question
+  completion:
+  - engaged
 - title: Keep score
 - title: More questions
-  completion: internal
 - title: Finish your app
+  completion:
+  - internal
 - title: What next?
